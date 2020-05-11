@@ -7,6 +7,6 @@ package browserHandling;
  *
  */
 public enum BrowserType {
-	Firefox, Chrome
+	Firefox, Chrome;
 
 }

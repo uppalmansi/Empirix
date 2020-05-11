@@ -25,7 +25,7 @@ public class ChromeBrowser {
 
 		if (System.getProperty("os.name").contains("Window")) {
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\acer\\eclipse-workspace\\EmpirixCloudPlatform\\src\\drivers\\chromedriver.exe");
+					"C:\\Users\\acer\\git\\EmpirixRepo\\EmpirixCloudPlatform\\src\\drivers\\chromedriver.exe");
 			return new ChromeDriver(opt);
 
 		}

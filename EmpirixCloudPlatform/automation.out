@@ -158,3 +158,13 @@
 2020-05-11 21:05:474 INFO  Testbase:40 - ----Starting
 2020-05-11 21:05:476 INFO  Homepage:75 - Test Case3 is starting
 2020-05-11 21:05:482 INFO  Testbase:40 - ----Starting
+2020-05-11 23:05:438 INFO  Testbase:61 - Initialize web driver: 1392794732
+2020-05-11 23:05:619 INFO  Testbase:40 - ----Starting
+2020-05-11 23:05:524 INFO  Homepage:43 - Test Case 1: --starting
+2020-05-11 23:05:330 INFO  Testbase:40 - ----Starting
+2020-05-11 23:05:904 INFO  Testbase:61 - Initialize web driver: 1072377306
+2020-05-11 23:05:881 INFO  Testbase:89 - Driver not found Firefox
+2020-05-11 23:05:153 INFO  Testbase:89 - Driver not found Firefox
+2020-05-11 23:05:912 INFO  Testbase:89 - Driver not found Firefox
+2020-05-11 23:05:373 INFO  Testbase:89 - Driver not found Firefox
+2020-05-11 23:05:184 INFO  Testbase:88 - Driver not found Firefox

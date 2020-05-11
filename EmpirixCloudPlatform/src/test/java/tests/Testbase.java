@@ -67,15 +67,14 @@ public class Testbase {
 		try {
 			switch (btype) {
 			case Chrome:
-				// get object of chromebrowser class
 				ChromeBrowser chrome = ChromeBrowser.class.newInstance();
 				ChromeOptions option = chrome.getChromeOptions();
 				return chrome.getChromeDriver(option);
 
-			case Firefox:
+			/*case Firefox:
 				FirefoxBrowser firefox = FirefoxBrowser.class.newInstance();
 				FirefoxOptions options = firefox.getFirefoxOptions();
-				return firefox.getFirefoxDriver(options);
+				return firefox.getFirefoxDriver(options);*/
 
 			/*
 			 * case IE: IEBrowser ie = IEBrowser.class.newInstance(); IEOptions
