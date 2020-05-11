@@ -28,7 +28,7 @@ public class FirefoxBrowser {
 
 		if (System.getProperty("os.name").contains("Windows")) {
 			System.setProperty("webdriver.gecko.driver",
-					"C:\\Users\\acer\\eclipse-workspace\\EmpirixCloudPlatform\\src\\drivers\\geckodriver.exe");
+					"C:\\Users\\acer\\git\\EmpirixRepo\\EmpirixCloudPlatform\\src\\drivers\\geckodriver.exe");
 			return new FirefoxDriver(cap);
 		}
 		return null;

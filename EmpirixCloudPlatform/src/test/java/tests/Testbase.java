@@ -82,7 +82,9 @@ public class Testbase {
 			 */
 
 			default:
-				throw new Exception("Driver not found " + btype.name());
+				 chrome = ChromeBrowser.class.newInstance();
+				 option = chrome.getChromeOptions();
+				return chrome.getChromeDriver(option);
 			}
 		} catch (Exception e) {
 			log.info(e.getMessage());

@@ -2,12 +2,12 @@
 <testng-results skipped="4" failed="0" ignored="0" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="96" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+  <suite name="Suite" duration-ms="93" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="96" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+    <test name="Test" duration-ms="93" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
       <class name="tests.TestCases">
-        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:tests.TestCases@2286778]" name="beforeTest" is-config="true" duration-ms="26" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="FAIL" signature="beforeTest()[pri:0, instance:tests.TestCases@2286778]" name="beforeTest" is-config="true" duration-ms="27" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Driver not found Firefox]]>
@@ -47,11 +47,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="TC_01_Login_With_Correct_Credentials()[pri:1, instance:tests.TestCases@2286778]" name="TC_01_Login_With_Correct_Credentials" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="TC_01_Login_With_Correct_Credentials()[pri:1, instance:tests.TestCases@2286778]" name="TC_01_Login_With_Correct_Credentials" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Driver not found Firefox]]>
@@ -91,11 +91,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_Login_With_Correct_Credentials -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="TC_02_Change_Language()[pri:2, instance:tests.TestCases@2286778]" name="TC_02_Change_Language" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="TC_02_Change_Language()[pri:2, instance:tests.TestCases@2286778]" name="TC_02_Change_Language" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Driver not found Firefox]]>
@@ -135,11 +135,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_Change_Language -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="TC_03_Access_All_Tabs()[pri:3, instance:tests.TestCases@2286778]" name="TC_03_Access_All_Tabs" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="TC_03_Access_All_Tabs()[pri:3, instance:tests.TestCases@2286778]" name="TC_03_Access_All_Tabs" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Driver not found Firefox]]>
@@ -179,11 +179,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_Access_All_Tabs -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.TestCases@2286778]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="TC_04_Display_Client_Info()[pri:4, instance:tests.TestCases@2286778]" name="TC_04_Display_Client_Info" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:tests.TestCases@2286778]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="TC_04_Display_Client_Info()[pri:4, instance:tests.TestCases@2286778]" name="TC_04_Display_Client_Info" duration-ms="0" started-at="2020-05-11T17:57:50Z" finished-at="2020-05-11T17:57:50Z">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[Driver not found Firefox]]>
@@ -223,10 +227,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_04_Display_Client_Info -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:tests.TestCases@2286778]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-11T17:47:15Z" finished-at="2020-05-11T17:47:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
       </class> <!-- tests.TestCases -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

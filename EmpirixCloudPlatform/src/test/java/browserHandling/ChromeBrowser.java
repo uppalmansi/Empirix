@@ -11,8 +11,7 @@ public class ChromeBrowser {
 		// option.addArguments("--incognito");
 		option.addArguments("--test-type");
 		option.addArguments("--disable-popup-blocking");
-		//option.addArguments("--incognito");
-
+		
 		DesiredCapabilities chrome = new DesiredCapabilities();
 		chrome.setJavascriptEnabled(true);
 		option.setCapability(ChromeOptions.CAPABILITY, chrome);
@@ -23,7 +22,7 @@ public class ChromeBrowser {
 
 	public ChromeDriver getChromeDriver(ChromeOptions opt) {
 
-		if (System.getProperty("os.name").contains("Window")) {
+		if (System.getProperty("os.name").contains("Windows")) {
 			System.setProperty("webdriver.chrome.driver",
 					"C:\\Users\\acer\\git\\EmpirixRepo\\EmpirixCloudPlatform\\src\\drivers\\chromedriver.exe");
 			return new ChromeDriver(opt);
