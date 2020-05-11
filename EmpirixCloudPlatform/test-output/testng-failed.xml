@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="" value=""/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TestCases">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TC_04_Display_Client_Info"/>
+          <include name="beforeTest"/>
+          <include name="TC_01_Login_With_Correct_Credentials"/>
+          <include name="TC_02_Change_Language"/>
+          <include name="TC_03_Access_All_Tabs"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestCases -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
